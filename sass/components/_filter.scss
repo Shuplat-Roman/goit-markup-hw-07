@@ -1,0 +1,16 @@
+.filter {
+  padding-top: var(--container-gap);
+  padding-bottom: var(--container-gap);
+}
+
+.filter__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.filter__list {
+  margin-bottom: 50px;
+  padding-left: 280px;
+  display: flex;
+}

@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__container_position_left {
+  margin-right: 70px;
+}
+
+.footer__container_position_right {
+  margin-right: 93px;
+}
+
+.footer__title {
+  margin-bottom: 16px;
+  @include font(14px, bold, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: #ffffff;
+}
